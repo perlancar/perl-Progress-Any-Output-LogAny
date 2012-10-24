@@ -1,5 +1,10 @@
 Revision history for Progress-Any-Output-LogAny
 
+0.02    2012-10-24 (SHARYANTO)
+
+        Don't log unless there is message in progress update.
+
+
 0.01    2012-10-24 (SHARYANTO)
 
         First release.
