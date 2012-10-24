@@ -16,6 +16,9 @@ sub new {
 sub update {
     my ($self, %args) = @_;
 
+    my $msg = $args{message};
+    return unless defined($msg);
+
     my $meth = "debugf";
     my $level = $args{level} // "normal";
     if ($level eq 'low') {
@@ -24,8 +27,7 @@ sub update {
         $meth = "infof";
     }
 
-    $log->$meth("(%s/%s) %s", $args{pos}, $args{target}//"?",
-                $args{message} // "Progress");
+    $log->$meth("(%s/%s) %s", $args{pos}, $args{target}//"?", $msg);
 }
 
 1;
