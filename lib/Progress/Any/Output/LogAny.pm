@@ -8,6 +8,8 @@ use Log::Any '$log';
 
 # VERSION
 
+# TODO: allow customizing format, show task
+
 sub new {
     my ($class, %args) = @_;
     bless \%args, $class;
