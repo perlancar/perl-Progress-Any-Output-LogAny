@@ -37,6 +37,8 @@ sub update {
 1;
 # ABSTRACT: Output progress to Log::Any
 
+=for Pod::Coverage ^(update)$
+
 =head1 SYNOPSIS
 
  use Progress::Any::Output;
