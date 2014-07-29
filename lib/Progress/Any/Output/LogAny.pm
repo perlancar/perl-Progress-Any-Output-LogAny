@@ -43,7 +43,7 @@ sub update {
 
  use Progress::Any::Output;
 
- Progress::Any::Output->set_output("LogAny",
+ Progress::Any::Output->set("LogAny",
      logger   => $log,
      template => '(%c/%C) %m',
  );
