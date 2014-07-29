@@ -1,5 +1,12 @@
 Revision history for Progress-Any-Output-LogAny
 
+0.04    2014-07-29 (SHARYANTO)
+
+        - No functional changes.
+
+        - Fix Synopsis.
+
+
 0.03    2013-05-17 (SHARYANTO)
 
         - Update to Progress::Any 0.05 API.
